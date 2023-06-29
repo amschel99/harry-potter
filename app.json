@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "potterapp",
+    "slug": "potterapp",
+    "scheme": "potterapp",
+    "owner": "mburuantony",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/placeholder.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#CCCCCC"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#CCCCCC"
+      },
+      "package": "com.mburuantony.potterapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b623be65-4ed0-4550-8bae-1192309209ba"
+      }
+    }
+  }
+}
